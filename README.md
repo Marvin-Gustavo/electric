@@ -136,3 +136,4 @@ La plataforma está 100% optimizada para desplegarse con un solo clic en **Verce
 * **Institución Técnica**: Centro de Educación Alternativa "Azari" (CEA AZARI) — Especialidad en Electricidad Industrial.
 * **Ubicación**: Barrio Azari, Sucre, Departamento de Chuquisaca, Estado Plurinacional de Bolivia.
 * **Normativa de Referencia**: Norma Boliviana **NB 777** (Diseño y Construcción de Instalaciones Eléctricas en Baja Tensión).
+

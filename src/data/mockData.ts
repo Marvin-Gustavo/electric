@@ -1392,3 +1392,4 @@ export const MOCK_SPONSORS = [
   { name: "Tramontina PRO", category: "Herramientas VDE 1000V", logoText: "TRAMONTINA" },
   { name: "Finder", category: "Relés y Temporizadores", logoText: "finder" }
 ];
+

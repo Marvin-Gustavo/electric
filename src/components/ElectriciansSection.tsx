@@ -427,3 +427,4 @@ export default function ElectriciansSection() {
     </section>
   );
 }
+
