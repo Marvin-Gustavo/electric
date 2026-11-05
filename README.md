@@ -92,23 +92,26 @@ npm run start
 
 ## 📦 Subir el Proyecto a GitHub
 
-1. Inicializa el repositorio local en la raíz del proyecto (si aún no lo has hecho):
+Ya hemos instalado y configurado **GitHub CLI (`gh`)** y el repositorio Git local en la rama `main`. Elige el método que prefieras:
+
+### Opción A (Recomendada y 100% Automática con GitHub CLI)
+Ejecuta en tu terminal:
 ```bash
-git init
+# 1. Inicia sesión en GitHub (se abrirá tu navegador para confirmar con un código de 8 dígitos)
+gh auth login
+
+# 2. Crea el repositorio remoto y sube todo el código en un solo paso
+gh repo create electrosucre-cea-azari --public --source=. --remote=origin --push
 ```
+¡Listo! El repositorio se creará automáticamente en tu cuenta de GitHub y se subirá todo el proyecto.
 
-2. Añade todos los archivos y realiza el primer commit:
-```bash
-git add .
-git commit -m "feat: Lanzamiento de la plataforma ElectroSucre & CEA AZARI"
-```
+---
 
-3. Crea un nuevo repositorio en [GitHub](https://github.com/new) con el nombre `electrosucre-cea-azari`.
-
-4. Vincula el repositorio remoto y haz push:
+### Opción B (Método Tradicional con Git)
+1. Entra a [github.com/new](https://github.com/new) y crea un repositorio llamado `electrosucre-cea-azari`.
+2. En tu terminal ejecuta:
 ```bash
 git remote add origin https://github.com/TU-USUARIO/electrosucre-cea-azari.git
-git branch -M main
 git push -u origin main
 ```
 
